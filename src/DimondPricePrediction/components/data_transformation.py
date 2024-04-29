@@ -11,7 +11,7 @@ from src.DimondPricePrediction.logger import logging
 from sklearn.compose import ColumnTransformer
 from sklearn.impute import SimpleImputer
 from sklearn.pipeline import Pipeline
-from sklearn.preprocessing import OrdinalEncoder,StandardScaler
+from sklearn.preprocessing import OrdinalEncoder,StandardScaler 
 
 from src.DimondPricePrediction.utils.utils import save_object
 
