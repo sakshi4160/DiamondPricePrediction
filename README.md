@@ -70,9 +70,6 @@ To replicate or build upon this project:
 2. Download the dataset from kaggle and place it in the `data` directory.
 3. Use Jupyter Notebook or your preferred environment to run the analysis and modeling scripts.
 
-## Contributing
-
-Contributions are welcome! If you encounter any issues or have suggestions for improvements, please open an issue or submit a pull request to this repository.
 
 ## License
 
