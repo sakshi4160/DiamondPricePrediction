@@ -33,10 +33,6 @@ jobs:
         ECR_REGISTRY: ${{ steps.login-ecr.outputs.registry }}
         ECR_REPOSITORY: diamondpriceprediction
         IMAGE_TAG: latest
-<<<<<<< HEAD
-      run:
-=======
       run: |
->>>>>>> 8a98e06f47e68445da62acb561b692c638e95957
         docker build -t $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG .
         docker push $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG
