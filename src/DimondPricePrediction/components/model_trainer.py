@@ -10,6 +10,7 @@ from src.DimondPricePrediction.utils.utils import save_object
 from src.DimondPricePrediction.utils.utils import evaluate_model
 
 from sklearn.linear_model import LinearRegression, Ridge,Lasso,ElasticNet
+from sklearn.tree import DecisionTreeRegressor
 
 
 @dataclass 
@@ -35,7 +36,8 @@ class ModelTrainer:
             'LinearRegression':LinearRegression(),
             'Lasso':Lasso(),
             'Ridge':Ridge(),
-            'Elasticnet':ElasticNet()
+            'Elasticnet':ElasticNet(),
+            'DecisionTree':DecisionTreeRegressor()
         }
             
             model_report:dict=evaluate_model(X_train,y_train,X_test,y_test,models)
