@@ -56,7 +56,10 @@ We used various regression algorithms to train our model on the dataset. The mod
 
 ## Results
 
-Our best-performing model achieved an R-squared score of XX%, indicating its ability to accurately predict diamond prices. The most influential features for price prediction were found to be [list_top_features_here].
+Our best-performing model achieved an R-squared score of 97%, indicating its ability to accurately predict diamond prices. 
+The Random Forest Regressor model is slightly better than the Decision Tree Regressor model.
+
+There is something interesting about the data. The price of the diamonds with J color and I1 clarity is higher than the price of the diamonds with D color and IF clarity which couldn't be explained by the models. This could be because of the other factors that affect the price of the diamond.
 
 ## Conclusion
 
